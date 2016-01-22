@@ -1,0 +1,176 @@
+/* STYLES DE BASES */
+html, body {
+	height : 100%;
+	color : #565656;
+}
+header, .news-ban, footer, a, .sub-ban_btn {
+	color : #FEFEFE;
+}
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+/* STYLE HEADER */
+header {
+	background: url("../images/payments-banner-graphic.png") no-repeat center;
+	background-size : cover;
+	height : 100%;
+	position: relative;
+}
+.logo {
+	width : 3%;
+	margin: 1%;
+}
+h1 {
+	font-size: 1.5em;
+	display : inline-block;
+	vertical-align: top;
+}
+nav ul {
+	position: absolute;
+	top : 0;
+	right : 1%;
+	width: 20%;
+	text-align: right;
+}
+nav li {
+	display: inline-block;
+	padding-right: 2%;
+}
+.pre-text {
+	width : 60%;
+	height : 50%;
+	margin : auto;
+	margin-top : 15%;
+	text-align: center;
+}
+.account-btn {
+	background-color: #FEFEFE;
+	color : #8080BE;
+	padding: 2% 6%;
+	border-radius : 5px;
+}
+/* THREE BOXES DESCRIPTION */
+.short-desc {
+	padding : 7% 0;
+}
+.short-desc div {
+	display : inline-block;
+	width : 32%;
+	margin : auto;
+	text-align: center;
+}
+.short-desc_middle-item {
+	border-left : 1px solid #C1C4C8;
+	border-right : 1px solid #C1C4C8;
+}
+/* PRICE BANNER */
+.price-ban {
+	background-color: #F6F9FB;
+	text-align : center;
+	border-top : 1px solid #C1C4C8;
+}
+.price-ban p:first-child {
+	margin-top: 5%;
+}
+.price-ban_dol, .price-ban_dol-sent {
+	display : inline-block;
+}
+.price-ban_dol {
+	color : #8080BE;
+	font-size : 3em;
+}
+/* NEWS BANNER */
+.news-ban {
+	background-color: #4C535C;
+	text-align: center;
+	margin : 0;
+	height: 5%;
+	padding-top: 2%;
+}
+/* SECTION */
+section div {
+	display: inline-block;
+	width : 50%;
+	height : 48%;
+	margin-right: -0.4%;
+	vertical-align: middle;
+}
+	/* Blocs textes */
+.sec-text h4, .sec-text p {
+	width : 70%;
+	margin : auto;
+
+}
+	/* Blocs image */
+section img {
+	border-radius: 10px;
+	display : block;
+	width : 70%;
+	margin : auto;
+	margin-top: 15%;
+}
+.sec-img1, .sec-img3 {
+	overflow: hidden;
+	background-color: #7CD5EF;
+	height: 500px;
+}
+.sec-img2 {
+	height: 500px;
+	overflow: hidden;
+	background-color: #8080BE;
+}
+/* INSCRIPTION BANNER */
+.sub-ban {
+	background-color: #FCFCFC;
+	border-top : 1px solid #C1C4C8;
+	text-align : center;
+	padding: 5%;
+}
+.sub-ban_btn {
+	font-size: 0.8em;
+	background-color : #00AF86;
+	padding : 1% 2%;
+	border-radius: 5%;
+}
+/* FOOTER */
+footer {
+	position: relative;
+	background-color: #242629;
+}
+.footer-part {
+	display: inline-block;
+	vertical-align: top;
+	width : 30%;
+	margin : auto;
+	margin-bottom: 5%;
+}
+.footer-cont {
+	width : 60%;
+	margin : auto;
+	padding-top: 5%;
+}
+footer ul {
+	padding-left: 0;
+}
+footer li {
+	margin : 2% 0;
+}
+
+.copyR p {
+	display: inline-block;
+	vertical-align: top;
+	width: 60%;
+	margin: auto;
+	font-size: 0.7em;
+}
+.discu-btn {
+	position: absolute;
+	bottom : 10px;
+	right: 1%;
+	background-color: #8080BE;
+	border-radius: 100%;
+	height: 10%;
+}
